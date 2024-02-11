@@ -22,13 +22,13 @@ const Collection = ()=>{
                 <div className="bg-gray-800 rounded-md text-gray-200 text-xs font-bold ml-5 p-1"><PiMoonStarsFill /></div>
                 <div className=" text-gray-700 text-md font-bold ml-5"><LuBellDot /></div>
             </div>
-            <div style={{width: "100%", marginTop: "100px", backdropFilter: "blur(90px)"}} className="rounded-lg bg-gray-800 bg-opacity-50  relative" >
+            <div style={{width: "100%", marginTop: "100px", backdropFilter: "blur(90px)"}} className="rounded-xl bg-gray-800 bg-opacity-50  relative" >
                 <img src="/Birble Dash Images/ring.png " className="absolute top-0 right-0 -translate-x-1/2 -translate-y-1/2" style={{ width: '200px', height: 'auto' }}/>
                 <div style={{paddingTop:"50px", paddingLeft: "55px " , paddingBottom: "20px"}}>
                     <div className="text-4xl text-white font-semibold">Media Collections</div>
                     <div className="text-base text-gray-400 font-light">View and edit your stored NFT and media collection here</div>
                 </div>
-                <div className="mx-auto rounded-lg " style={{overflow: "hidden", width: "90%", marginBottom: "20px"}}>
+                <div className="mx-auto rounded-2xl " style={{overflow: "hidden", width: "90%", marginBottom: "20px"}}>
                     <div className="relative m-0 p-0">
                         <div className="overlays absolute"></div>
                         <img src="/Birble Dash Images/collection.jpg" style={{width: "100%", height: "220px"}} className="rounded-lg"/>
@@ -81,8 +81,8 @@ const Collection = ()=>{
                             <div className="flex flex-col">
                                 <HiOutlineRectangleStack style={{ color: "#39374F", fontSize: "100px" }} />
                                 <div className="flex flex-col text-center">
-                                    <div className="font-semibold text-white">Create New</div>
-                                    <div className="font-semibold text-white">Collection</div>
+                                    <div className="font-semibold text-gray-400">Create New</div>
+                                    <div className="font-semibold text-gray-400">Collection</div>
                                 </div>
                             </div>
                         </div>
