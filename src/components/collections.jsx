@@ -23,7 +23,7 @@ const Collection = ()=>{
                 <div className=" text-gray-700 text-md font-bold ml-5"><LuBellDot /></div>
             </div>
             <div style={{width: "100%", marginTop: "100px", backdropFilter: "blur(90px)"}} className="rounded-lg bg-gray-800 bg-opacity-50  relative" >
-                <img src="/Birble Dash Images/ring1.png " className="absolute top-0 right-0 -translate-x-1/2 -translate-y-1/2" style={{ width: '200px', height: 'auto' }}/>
+                <img src="/Birble Dash Images/ring.png " className="absolute top-0 right-0 -translate-x-1/2 -translate-y-1/2" style={{ width: '200px', height: 'auto' }}/>
                 <div style={{paddingTop:"50px", paddingLeft: "55px " , paddingBottom: "20px"}}>
                     <div className="text-4xl text-white font-semibold">Media Collections</div>
                     <div className="text-base text-gray-400 font-light">View and edit your stored NFT and media collection here</div>
@@ -32,13 +32,13 @@ const Collection = ()=>{
                     <div className="relative m-0 p-0">
                         <div className="overlays absolute"></div>
                         <img src="/Birble Dash Images/collection.jpg" style={{width: "100%", height: "220px"}} className="rounded-lg"/>
-                        <div className="bg-black bg-opacity-70 text-white text-sm rounded-lg flex absolute top-2 left-2 px-4 py-2 rounded-lg ml-3 font-light"  style={{ borderRadius: "18px"}}><span className="font-normal">Last created</span> - Tuesday, 2 Jan 2024</div>
+                        <div className="bg-black bg-opacity-70 text-gray-300 text-sm rounded-lg flex absolute top-2 left-2 px-4 py-2 rounded-lg ml-3 font-light"  style={{ borderRadius: "18px"}}><span className="font-normal text-white">Last created</span> - Tuesday, 2 Jan 2024</div>
                         <div className="absolute -mt-24 pl-4">
                             <div className="text-2xl text-white font-semibold mb-4">All Collections</div>
                             <div className="text-sm text-gray-400 font-light">View and manage all your created media assets</div>
                         </div>
                         <div style={{ position: "absolute", marginLeft: "732px", top: "-42px"}}  >
-                            <div style={{fontSize: "170px"}}><MdArrowOutward className="text-white text-opacity-60 " style={{fontWeight: "700"}}/></div>
+                            <div style={{fontSize: "170px",height: "150px" }}><MdArrowOutward className="text-white text-opacity-60 " style={{fontWeight: "2000"}}/></div>
                         </div>
                     </div>
                 </div>
@@ -101,7 +101,7 @@ const Collection = ()=>{
                                 <div className="text-white z-40 font-semibold">{item.name}</div>
                                 <div className="overlay-text z-40 px-2 bg-white text-black ml-1" style={{ borderRadius: "18px"}}>{item.number}</div>
                             </div>
-                            <div className="collection-name z-40 text-sm font-light text-white">{item.collectionName}</div>
+                            <div className="collection-name z-40 text-xs font-light text-gray-400">{item.collectionName}</div>
                             </div>
                         </div>
                     ))}
