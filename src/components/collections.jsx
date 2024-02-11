@@ -4,6 +4,9 @@ import { MdArrowOutward } from "react-icons/md";
 import { FaFilter } from "react-icons/fa6";
 import { CgSortAz } from "react-icons/cg";
 import { HiOutlineRectangleStack } from "react-icons/hi2";
+import { LuBellDot } from "react-icons/lu";
+import { PiMoonStarsFill } from "react-icons/pi";
+import { BsGlobe } from "react-icons/bs";
 import { useState } from "react";
 
 const Collection = ()=>{
@@ -14,8 +17,12 @@ const Collection = ()=>{
     };
     return(
         <div style={{width: "100%"}} className="relative">
-           
-            <div style={{width: "100%", marginTop: "80px", backdropFilter: "blur(90px)"}} className="rounded-lg bg-black bg-opacity-40  relative" >
+            <div className="flex top-0 mx-auto absolute -top-20 right-12 items-center">
+                <div className="bg-gray-800 text-gray-200 rounded-md font-bold text-xs p-1"><BsGlobe /></div>
+                <div className="bg-gray-800 rounded-md text-gray-200 text-xs font-bold ml-5 p-1"><PiMoonStarsFill /></div>
+                <div className=" text-gray-700 text-md font-bold ml-5"><LuBellDot /></div>
+            </div>
+            <div style={{width: "100%", marginTop: "100px", backdropFilter: "blur(90px)"}} className="rounded-lg bg-gray-800 bg-opacity-50  relative" >
                 <img src="/Birble Dash Images/ring1.png " className="absolute top-0 right-0 -translate-x-1/2 -translate-y-1/2" style={{ width: '200px', height: 'auto' }}/>
                 <div style={{paddingTop:"50px", paddingLeft: "55px " , paddingBottom: "20px"}}>
                     <div className="text-4xl text-white font-semibold">Media Collections</div>
@@ -86,7 +93,7 @@ const Collection = ()=>{
                             <div className="card-content bg-transparent ">
                                 <div className="flex relative place-content-center">
                                     
-                                    <div  className="absolute -top-24 rounded-t-lg overflow-hidden z-30 " style={{width:"229px", height: "280px"}}><img src={item.images[2]} alt="Image 1"  style={{width:"229px", height: "280px"}} className="rounded-lg"/></div>
+                                    <div  className="absolute -top-24 rounded-t-lg overflow-hidden z-30 " style={{width:"229px", height: "280px"}}><img src={item.images[2]} alt="Image 1"  style={{width:"229px", height: "280px", position: "relative", zIndex: "1"}} className="rounded-lg"/><div className="gradient-overlay"></div></div>
                                     <div className=" absolute -top-28 rounded-lg  overflow-hidden z-20 " style={{width:"210px", height: "240px"}}><img src={item.images[1]} alt="Image 2" className="rounded-lg"/></div>
                                     <div className=" absolute -top-32  rounded-lg overflow-hidden z-10" style={{width:"190px", height: "240px"}}><img src={item.images[0]} alt="Image 3"  className="rounded-lg"/></div>
                                 </div>
