@@ -17,7 +17,7 @@ const Collection = ()=>{
     };
     return(
         <div style={{width: "100%"}} className="relative">
-            <div className="flex top-0 mx-auto absolute -top-20 right-12 items-center">
+            <div className="flex top-0 mx-auto absolute -top-20 right-0 items-center">
                 <div className="bg-gray-800 text-gray-200 rounded-md font-bold text-xs p-1"><BsGlobe /></div>
                 <div className="bg-gray-800 rounded-md text-gray-200 text-xs font-bold ml-5 p-1"><PiMoonStarsFill /></div>
                 <div className=" text-gray-700 text-md font-bold ml-5"><LuBellDot /></div>
