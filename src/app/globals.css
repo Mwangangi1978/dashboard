@@ -75,3 +75,81 @@
     @apply bg-background text-foreground;
   }
 }
+
+.underline-teal-200 {
+  display: inline-block;
+  position: absolute;
+  left: -5px;
+  bottom: -5px; /* Adjust as needed */
+  width: calc(100% + 10px); /* Extend 2px wider on each side */
+  height: 2px; /* Adjust as needed */
+  background-color: rgb(94 234 212); /* Teal-200 color */
+}
+
+.square-card {
+  width: 250px; /* Or any desired width */
+  background-color: #0E0D1D;
+  position: relative;
+}
+
+.square-card::before {
+  content: "";
+  display: block;
+  height: 250px; /* This will make the height equal to the width */
+}
+
+.card-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square-cards {
+  width: 250px;
+  height: 250px; /* Add margin between cards */
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.card-contents {
+  position: relative;
+}
+
+.stacked-images {
+  position: relative;
+}
+
+
+
+.overlay {
+  
+  display: flex;
+  bottom: 35px;
+  left: 10px;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+  
+  /*background-color: rgba(0, 0, 0, 0.5);  Semi-transparent background */
+  color: white;
+  text-align: center;
+}
+
+.overlay-text {
+  font-size: 16px;
+}
+
+.collection-name {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: transparent;/* Semi-transparent background */
+  padding: 5px;
+}
+

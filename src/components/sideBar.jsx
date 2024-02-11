@@ -7,7 +7,7 @@ import Upgrade from "./upgrade";
 
 const SideBar = ()=>{
     return(
-        <div class="flex flex-col rounded-b-md" style={{ backgroundImage: "url('/Birble Dash Images/sidebar.jpg')", backgroundSize: "cover", backgroundPosition: "center" }}>
+        <div className="flex flex-col rounded-r-md" style={{ backgroundImage: "url('/Birble Dash Images/sidebar.jpg')", backgroundSize: "cover", backgroundPosition: "center" }}>
             <div className="mx-auto">
                 <div className="mb-4 pl-10">
                     <img src="/Birble Dash Images/logo.png" alt="Sidebar Image" style={{width: "120px"}} />
@@ -28,7 +28,7 @@ const SideBar = ()=>{
                     </div>
                 </div>
                 <div className="mb-4 text-base font-semibold text-white pl-5">Collections</div>
-                <div className="mb-16 text-base font-semibold text-white pl-5">Token Sale</div>
+                <div className="mb-12 text-base font-semibold text-white pl-5">Token Sale</div>
                 <div className="mb-8 pl-2">
                     <Upgrade/>
                 </div>
