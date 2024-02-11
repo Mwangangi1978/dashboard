@@ -15,6 +15,8 @@ const Collection = ()=>{
     const handleClick = (item) => {
       setActiveItem(item);
     };
+
+    const filteredData = activeItem === 'All Media' ? Data : Data.filter(item => item.type === activeItem);
     return(
         <div style={{width: "100%"}} className="relative">
             <div className="flex top-0 mx-auto absolute -top-20 right-0 items-center">
@@ -88,7 +90,7 @@ const Collection = ()=>{
                         </div>
                     </div>
 
-                    {Data.map((item) => (
+                    {filteredData.map((item) => (
                         <div className="square-cards rounded-lg mb-10 bg-transparent" key={item.id} style={{maxHeight: "250px", overflow: "hidden"}}>
                             <div className="card-content bg-transparent ">
                                 <div className="flex relative place-content-center">

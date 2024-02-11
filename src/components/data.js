@@ -9,7 +9,8 @@ const Data = [
       ],
       collectionName: "Image Collection",
       number: 1000,
-      name: "Aeronautic Birds"
+      name: "Aeronautic Birds",
+      type: "Image"
     },
     {
       id: 20,
@@ -21,7 +22,8 @@ const Data = [
       ],
       collectionName: "Video Collection",
       number: 37,
-      name: "2024 Neo Sound"
+      name: "2024 Neo Sound",
+      type: "Video"
     },
     {
       id: 30,
@@ -33,7 +35,8 @@ const Data = [
       ],
       collectionName: "Image Collection",
       number: 203,
-      name: "Cyberpunk Fighter"
+      name: "Cyberpunk Fighter",
+      type: "Image"
     },
     {
       id: 40,
@@ -45,7 +48,8 @@ const Data = [
       ],
       collectionName: "Music Collection",
       number: 12,
-      name: "Hip Hop Beatz"
+      name: "Hip Hop Beatz",
+      type: "Music"
     },
     {
       id: 50,
@@ -57,7 +61,8 @@ const Data = [
       ],
       collectionName: "Video Collection",
       number: 5,
-      name: "Sports Intro"
+      name: "Sports Intro",
+      type: "Video"
     }
   ];
   
