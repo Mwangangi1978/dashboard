@@ -6,7 +6,7 @@ import 'tailwindcss/tailwind.css'
 export default function Home() {
   return (
     <div  style={{ backgroundColor: "#07011D" }}>
-      <div className="flex flex-row relative "  style={{ backgroundImage: "url('/Birble Dash Images/background.jpg')", backgroundSize: "cover", backgroundPosition: "center" , height: '100vh' }}>
+      <div className="flex flex-row relative "  style={{ backgroundImage: "url('/Birble Dash Images/background.jpg')", backgroundSize: "cover", backgroundPosition: "center" , height: '150vh' }}>
         <div style={{width: "18%"}}>
           <SideBar/>
         </div>
