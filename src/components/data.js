@@ -55,9 +55,9 @@ const Data = [
         "/Birble Dash Images/cyberbunk_fighter1.jpg",
         "/Birble Dash Images/sports.png"
       ],
-      collectionName: "Sports Intro",
+      collectionName: "Video Collection",
       number: 5,
-      name: "Video Collection"
+      name: "Sports Intro"
     }
   ];
   

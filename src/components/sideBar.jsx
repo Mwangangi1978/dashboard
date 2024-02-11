@@ -2,6 +2,9 @@
 import { IoChatbubblesOutline} from "react-icons/io5";
 import { SlMusicToneAlt } from "react-icons/sl";
 import { CiVideoOn } from "react-icons/ci";
+import { IoImagesOutline } from "react-icons/io5";
+import { RiVoiceprintFill } from "react-icons/ri";
+import { FaCode } from "react-icons/fa6";
 import Profile from "./profile";
 import Upgrade from "./upgrade";
 
@@ -19,12 +22,12 @@ const SideBar = ()=>{
                     </div>
                     {/* Dropdown items */}
                     <div className="pl-2 ">
-                        <div className="text-gray-400 mb-2 font-normal text-sm flex items-center"><div className="mr-2"><IoChatbubblesOutline /></div>Conversation <span className="bg-teal-200 text-black text-xs px-2  rounded-lg ml-2">GPT-4</span></div>
-                        <div className="text-gray-400 mb-2 font-normal text-sm">Image creation</div>
+                        <div className="text-gray-400 mb-2 font-normal text-sm flex items-center"><div className="mr-2"><IoChatbubblesOutline /></div>Conversation <span className="bg-teal-200 text-black px-2  rounded-xl ml-2" style={{fontSize: "8px"}}>GPT-4</span></div>
+                        <div className="text-gray-400 mb-2 font-normal text-sm flex items-center"><span className="mr-2"><IoImagesOutline /></span>Image creation</div>
                         <div className="text-gray-400 mb-2 font-normal text-sm flex items-center"><span className="mr-2"><SlMusicToneAlt/></span>Music creation</div>
                         <div className="text-gray-400 mb-2 font-normal text-sm flex items-center"><span className="mr-2"><CiVideoOn /></span>Video Generation</div>
-                        <div className="text-gray-400 mb-2 font-normal text-sm">Code Generation</div>
-                        <div className="text-gray-400 mb-2 font-normal text-sm">Text to voice</div>
+                        <div className="text-gray-400 mb-2 font-normal text-sm flex items-center"><span className="mr-2"><FaCode /></span>Code Generation</div>
+                        <div className="text-gray-400 mb-2 font-normal text-sm flex items-center"><span className="mr-2"><RiVoiceprintFill /></span>Text to voice</div>
                     </div>
                 </div>
                 <div className="mb-4 text-base font-semibold text-white pl-5">Collections</div>
